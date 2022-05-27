@@ -1,0 +1,81 @@
+.donation-content .section-hero>.container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.donation-content .section-hero-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.donation-content .hero-image-container {
+    position: relative;
+}
+.donation-content .hero-image-container>img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+.donation-content .hero-image-container>span {
+    max-width: 100%;
+    position: absolute;
+    top: 23.5rem;
+    right: 50.5rem;
+}
+.donation-content .hero-image-container>span img {
+    width: 16.4rem;
+    height: 14.8rem;
+}
+.donation-content .section-progress{
+    background-color: rgb(252,249,247);
+}
+.donation-content .section-progress>.container{
+    padding: 7rem 5rem 5rem 5rem;
+    position: relative;
+}
+.donation-content .section-progress .section-progress-content{
+    display: flex; 
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+.progress{
+    width: 32.5rem;
+    height: 3rem;
+    border-radius: 5.6rem;   
+}
+.progress .progress-bar{
+    border-radius: 5.6rem;
+    background: linear-gradient(90deg, rgb(198, 199, 136) 0%, rgb(27, 127, 49) 100%); 
+}/*
+.section-progress > .container:nth-child(2) {
+    position: absolute;
+    top: 3rem;
+    left:1.56rem;
+    translate:middle;
+}
+.section-progress > .container :last-child {
+    position: absolute;
+    bottom: 0;
+    right:0rem;
+}*/
+.donation-content .section-content>.container{
+    padding: 5rem 11rem 5rem 11rem;
+}
+.donation-content .section-content .container img  {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+.section-content  .section-content-definion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.section-content .container .row:last-child{
+    text-align: center;
+}
+.sponsors > .container{
+    padding: 4rem;
+}
+.sponsors .row:first-child{
+    text-align: center;
+}
