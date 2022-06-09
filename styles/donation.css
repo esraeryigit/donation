@@ -44,11 +44,16 @@
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
+.section-content  div:nth-child(2){
+    max-width: 30rem; 
+    text-align:center;
+}
 .section-progress-content .progress, .section-progress-content p{
     margin-bottom: 1.5rem;
 }
 .progress {
-    width: 32.5rem;
+    max-width: 32rem;
+    width:100%;
     height: 3rem;
     border-radius: 5.6rem;
     margin-left: auto;
@@ -60,7 +65,7 @@
 }
 .progress-percantage {
     position: relative;
-    right: -7.3rem;
+    right:-7rem;
     color: rgb(255, 255, 255);
 }
 .donation-content .section-content>.container {
@@ -153,13 +158,6 @@
     .section-content-definion .text-xl {
         font-size: 0.875rem;
     }
-    .progress {
-        width: 25.5rem;
-        height: 2.5rem;
-    }
-    .progress-percantage {
-        right: -6rem;
-    }
 }
 @media only screen and (max-width:575px) {
     .section-content>.container div:nth-child(2) {
@@ -173,10 +171,6 @@
 @media only screen and (max-width:500px) {
     .section-content-definion .text-xl {
         font-size: 1rem;
-    }
-    .progress {
-        width: 15.5rem;
-        height: 2.5rem;
     }
     .progress-percantage {
         right: -3rem;
