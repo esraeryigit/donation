@@ -117,6 +117,11 @@
         color: rgb(255, 255, 255);
         text-align: center;
     }
+    .section-content>.container .row {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+    }
     .section-progress {
         margin-top: 3.5rem;
     }
@@ -167,11 +172,6 @@
     .section-content-definion .text-xl {
         font-size: 1rem;
     }
-    .donation-content .section-progress>.container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
     .progress {
         width: 15.5rem;
         height: 2.5rem;
@@ -179,6 +179,8 @@
     .progress-percantage {
         right: -3rem;
     }
+}
+    
   
 
 
