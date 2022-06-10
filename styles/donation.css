@@ -86,6 +86,9 @@
 .section-content .container .row:last-child {
     text-align: center;
 }
+.sponsors{
+    overflow: hidden;
+}
 .sponsors>.container {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -99,12 +102,12 @@
     justify-content: center;
 }
 .sponsors .container>.row>div:first-child {
-    margin-right:6rem;
+    margin-right:9rem;
 }
 .sponsors .container>.row>div:last-child {
     margin-top:1rem;
 }
-.sponsors .container .row:last-child{
+.sponsors .container .row:nth-child(3),.sponsors .container .row:last-child{
     display: none;
 }
 @media only screen and (max-width:1070px) {
@@ -172,13 +175,10 @@
     .sponsors .container> .row{
         display: none;
     }
-    .sponsors .container .row:last-child{
+    .sponsors .container .row:nth-child(3){
         display: flex;
-        flex-direction: row;
-       
-        align-items: center;
-        
-        
+        flex-direction: row;  
+        align-items: center;    
     }
     .sponsors .container .row>div:first-child {
         margin-top: 1rem;
@@ -213,6 +213,17 @@
     }
     .sponsors .container .row>div:first-child {
         margin-right:.5rem;
+    }
+    .sponsors .container .row:nth-child(3){
+        display:none;
+    }
+    .sponsors .container .row:last-child{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;  
+    }
+    .sponsors .container .row:last-child div:last-child{
+        margin-top: 1rem; 
     }
 }
     
