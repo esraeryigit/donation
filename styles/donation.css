@@ -170,9 +170,6 @@ position: relative;
     .section-hero-content>span,.section-hero-content>p {
         margin-bottom: 1rem;
     }
-    .section-content-definion .text-xl {
-        font-size: 0.875rem;
-    }
 }
 @media only screen and (max-width:575px) {
     .section-content>.container div:nth-child(2) {
