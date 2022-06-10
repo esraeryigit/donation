@@ -124,7 +124,7 @@
     }
     .section-hero >.container{
         z-index: 1;
-position: relative;
+        position: relative;
     }
     .section-hero-content>h1 {
         margin-top: 3rem;
@@ -181,9 +181,6 @@ position: relative;
     }
 }
 @media only screen and (max-width:500px) {
-    .section-content-definion .text-xl {
-        font-size: 1rem;
-    }
     .progress-percantage {
         right: -1rem;
     }
