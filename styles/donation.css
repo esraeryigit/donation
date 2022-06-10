@@ -44,10 +44,7 @@
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
-.section-content  div:nth-child(2){
-    max-width: 30rem; 
-    text-align:center;
-}
+
 .section-progress-content .progress, .section-progress-content p{
     margin-bottom: 1.5rem;
 }
@@ -65,12 +62,12 @@
 }
 .progress-percantage {
     position: relative;
-    right:-7rem;
+    right:-5rem;
     color: rgb(255, 255, 255);
 }
 .donation-content .section-content>.container {
     padding-top: 3.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
 }
 .donation-content .section-content .container img {
     max-width: 100%;
@@ -133,9 +130,6 @@
     .section-progress {
         margin-top: 3.5rem;
     }
-    .section-progress>.container span:nth-child(2) {
-        display: none;
-    }
     .section-progress .progress{
         text-align: center;
     }
@@ -173,7 +167,7 @@
         font-size: 1rem;
     }
     .progress-percantage {
-        right: -3rem;
+        right: -1rem;
     }
 }
     
