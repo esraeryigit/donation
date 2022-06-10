@@ -89,15 +89,19 @@
 .sponsors>.container {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    margin: 0;
 }
 .sponsors .container>h2 {
     margin-bottom: 1.5rem;
 }
 .sponsors .container .row {
-    justify-content: space-around;
+    justify-content: center;
 }
-.sponsors .container .row>div:last-child {
+.sponsors .container>.row>div:last-child {
     margin-top: 1rem;
+}
+.sponsors .container .row:last-child{
+    display: none;
 }
 @media only screen and (max-width:1070px) {
     .section-content-definion .text-xl{
@@ -157,8 +161,16 @@
     .hero-image-container {
         display: none;
     }
-    .sponsors .container>.row {
-       text-align: center;
+    .sponsors .container{
+        justify-content: center;
+    }
+    .sponsors .container> .row{
+        display: none;
+    }
+    .sponsors .container .row:last-child{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
     }
 }
 @media only screen and (max-width:746px) {
