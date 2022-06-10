@@ -22,7 +22,9 @@
     max-width: 100%;
     position: absolute;
     top: 25.1rem;
-    right: 46.8rem;
+    right: 46.2rem;
+    object-fit: scale-down;
+
 }
 .donation-content .hero-image-container>span img {
     width: 16rem;
@@ -153,8 +155,8 @@
         text-align: center;
     }
     .donation-content .hero-image-container>span {
-        top: 3.5rem;
-        right: 3rem;
+        top: 3.2rem;
+        right: 2.5rem;
     }
     .section-content> .container{
         padding-bottom: 3rem;
