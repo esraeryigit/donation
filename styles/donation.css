@@ -23,8 +23,6 @@
     position: absolute;
     top: 25.1rem;
     right: 46.2rem;
-    object-fit: scale-down;
-
 }
 .donation-content .hero-image-container>span img {
     width: 16rem;
@@ -46,7 +44,6 @@
     margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
-
 .section-progress-content .progress, .section-progress-content p{
     margin-bottom: 1.5rem;
 }
@@ -69,8 +66,8 @@
 }
 .section-progress-content p{
     max-width: 34rem;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .donation-content .section-content>.container {
     padding-top: 3.5rem;
@@ -113,12 +110,12 @@
 .section-sponsors .container .row:nth-child(3),.section-sponsors .container .row:last-child{
     display: none;
 }    
-@media only screen and (max-width:1070px) {
+@media (max-width:1024px) {
     .section-content-definion .text-xl{
         font-size: 1.25rem;
     }
 }
-@media only screen and (max-width:992px) {
+@media(max-width: 992px){
     .donation-content .section-hero::after{
         display: inline-block;
         position: absolute;
@@ -198,7 +195,7 @@
         margin-top:0rem;
     }
 }
-@media only screen and (max-width:746px) {
+@media(max-width:768px) {
     .section-content-definion .text-xl{
         font-size: 1rem;
     }
@@ -216,7 +213,7 @@
         margin-right: auto;  
      }
 }
-@media only screen and (max-width:575px) {
+@media(max-width: 575px){
     .section-content>.container div:nth-child(2) {
         display: flex;
         flex-direction: column-reverse;
@@ -230,9 +227,8 @@
     .donation-content .hero-image-container>span img {
         width:45%;
     }
-    
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
     .progress-percantage {
         right: -1rem;
     }
@@ -259,8 +255,3 @@
         margin-right: auto;
     }
 }
-    
-  
-
-
-
