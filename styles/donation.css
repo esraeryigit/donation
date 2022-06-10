@@ -238,8 +238,8 @@
         margin-left: 4rem;  
     }
     .section-sponsors .container .row:last-child div:first-child{
-        margin-left: 1rem; 
-        margin-right:0;
+        margin-left: 0; 
+        margin-right:2rem;
     }
     .section-sponsors .container .row:last-child div:last-child{
         margin-top: 1rem; 
