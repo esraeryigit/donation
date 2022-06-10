@@ -166,6 +166,9 @@
     .section-progress .progress{
         text-align: center;
     }
+    .section-progress-content .text-lg{
+        font-size: 1.125rem;
+    }
     .hero-image-container {
         display: none;
     }
@@ -219,6 +222,9 @@
 @media only screen and (max-width:500px) {
     .progress-percantage {
         right: -1rem;
+    }
+    .section-progress-content .text-lg{
+        font-size: 0.875rem;
     }
     .section-sponsors .container .row>div:first-child {
         margin-right:.5rem;
