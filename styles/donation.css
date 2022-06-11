@@ -69,11 +69,14 @@
     margin-left: auto;
     margin-right: auto;
 }
-.donation-content .section-content>.container {
+.section-content>.container {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
 }
-.donation-content .section-content .container img {
+.section-content> .container .row:first-child,.section-content> .container .row:nth-child(2){
+    margin-bottom: 5rem;
+}
+.section-content .container img {
     max-width: 100%;
     border-radius: 1rem;
 }
@@ -82,8 +85,15 @@
     justify-content: center;
     flex-direction: column;
 }
+.section-content .container .row:first-child> div{
+    margin-right: 1rem;
+}
+.section-content .container .row:nth-child(2)>div{
+    margin-right: 1rem;
+}
 .section-content .container .row:last-child {
     text-align: center;
+    margin-bottom: 5rem;
 }
 .section-sponsors{
     overflow: hidden;
@@ -113,6 +123,9 @@
 @media (max-width:1024px) {
     .section-content-definion .text-xl{
         font-size: 1.25rem;
+    }
+    .section-content .container .row:last-child {
+        margin-bottom: 1rem;
     }
 }
 @media(max-width: 992px){
@@ -194,24 +207,24 @@
     }
 }
 @media(max-width:768px) {
+    .section-content .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .section-content-definion .text-xl{
         font-size: 1rem;
     }
-}
-@media only screen and (max-width:700px) {
-    .section-hero-content>span,.section-hero-content>p {
-        margin-bottom: 1rem;
-    }
     .section-sponsors .container .row:nth-child(3){
-       margin-left: 0;
-       margin-right: 0;
-       justify-content: center;  
-    }
-    .section-sponsors .container .row:nth-child(3) div:last-child{
-        margin-right: auto;  
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;  
      }
+     .section-sponsors .container .row:nth-child(3) div:last-child{
+         margin-right: auto;  
+      }
 }
 @media(max-width: 575px){
+   
     .section-content>.container div:nth-child(2) {
         display: flex;
         flex-direction: column-reverse;
