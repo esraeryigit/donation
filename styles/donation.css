@@ -9,7 +9,10 @@
     justify-content: center;
 }
 .hero-image-container figure img:last-child{
-    width: 16rem;position:absolute;bottom:-11rem;left:-15rem;
+    position:absolute;
+    width: 16rem;
+    bottom:-11rem;
+    left:-15rem;
 }
 .donation-content .section-progress {
     background-color: rgb(252, 249, 247);
@@ -111,7 +114,7 @@
     }
     .section-hero-content>h1 {
         margin-bottom: 1rem;
-        color: rgb(255, 255, 255);
+        color:rgb(255, 255, 255);
         text-shadow: 1px 1px rgb(0 0 0 / 20%)
     }
     .section-hero-content>p{
