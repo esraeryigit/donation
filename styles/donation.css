@@ -124,9 +124,6 @@
         bottom:-14rem;
         left:3rem;
     }
-    .section-content> .container{
-        padding-bottom: 3rem;
-    }
     .section-content>.container .row {
         justify-content: center;
     }
@@ -160,6 +157,12 @@
         bottom:-12rem;
         left:5rem;
         width: 40%;
+    }
+    .section-content> .container{
+        padding-bottom: 1rem;
+    }
+    .section-content .container .row:last-child {
+        margin-bottom: 0rem;
     }
 }
 @media only screen and (max-width:480px) {
