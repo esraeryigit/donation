@@ -74,6 +74,10 @@
     text-align: center;
     margin-bottom: 5rem;
 }
+.section-content-definion{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .section-sponsors .container img{
     max-width: 100%;
 }
