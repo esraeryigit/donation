@@ -158,6 +158,10 @@
         left:5rem;
         width: 40%;
     }
+    .section-progress>.container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     .section-content> .container{
         padding-bottom: 1rem;
     }
