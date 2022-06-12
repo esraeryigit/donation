@@ -157,8 +157,9 @@
         margin-right:0;
     }
     .hero-image-container figure img:last-child{
-        bottom:-13rem;
-        width: 35%;
+        bottom:-12rem;
+        left:5rem;
+        width: 40%;
     }
 }
 @media only screen and (max-width:480px) {
