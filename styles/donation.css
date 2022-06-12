@@ -60,10 +60,10 @@
     max-width: 100%;
     border-radius: 1rem;
 }
-.section-content .container .row:first-child> div{
+.section-content .container>.row div:first-child{
     margin-right: 1rem;
 }
-.section-content .container .row:nth-child(2)>div{
+.section-content .container:nth-child(2)>div{
     margin-right: 1rem;
 }
 .section-content .container .row:last-child {
@@ -77,11 +77,8 @@
     .section-content-definion .text-xl{
         font-size: 1.25rem;
     }
-    .section-content .container .row:last-child {
-        margin-bottom: 1rem;
-    }
 }
-@media (max-width:991px) {
+@media (max-width:991.98px) {
     .section-hero{
         background-image: url("/images/donation_hero_image.jpg");
         background-size: cover;
@@ -122,8 +119,6 @@
         padding-bottom: 3rem;
     }
     .section-content>.container .row {
-        padding-left: 0;
-        padding-right: 0;
         justify-content: center;
     }
     .section-progress .progress{
@@ -134,31 +129,23 @@
     }
 }
 @media(max-width:768px) {
-    .section-content .row{
-        margin-left: 0;
-        margin-right: 0;
-    }
     .section-content-definion .text-xl{
         font-size: 1rem;
     }
 }
-@media(max-width: 576px){
-   .section-content>.container>div{
-        display: flex;
-        flex-direction: column;     
-   }
-   .section-content-definion{
-        width:100%;
-   }
-   .section-content-image{
-        width:100%;
-   }
+@media(max-width: 575.98px){ 
     .section-content>.container div:nth-child(2) {
         display: flex;
         flex-direction: column-reverse;
     }
     .section-content>.container div img {
         margin-bottom: 1rem;
+    }
+    .section-content .container>.row div:first-child{
+        margin-right:0;
+    }
+    .section-content .container:nth-child(2)>div{
+        margin-right:0;
     }
 }
 @media only screen and (max-width:480px) {
