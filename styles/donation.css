@@ -120,9 +120,9 @@
         padding-bottom: 2rem;
     }
     .hero-image-container figure img:last-child{
-        width: 55%;
+    
         bottom:-14rem;
-        left:3rem;
+        left:-2rem;
     }
     .section-content>.container .row {
         justify-content: center;
@@ -137,6 +137,9 @@
 @media(max-width: 767.98px) {
     .section-content-definion .text-xl{
         font-size: 1rem;
+    }
+    .hero-image-container figure img:last-child{ 
+      width:65%;
     }
 }
 @media(max-width: 575.98px){ 
@@ -155,7 +158,6 @@
     }
     .hero-image-container figure img:last-child{
         bottom:-12rem;
-        left:5rem;
         width: 40%;
     }
     .section-progress>.container {
@@ -187,6 +189,6 @@
     }
     .hero-image-container figure img:last-child{
         bottom:-12rem;
-        left:3rem;
+        width:45%;
     }
 }
