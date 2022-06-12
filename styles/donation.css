@@ -80,25 +80,25 @@
 }
 @media (max-width:991.98px) {
     .section-hero{
+        display:inline-block;
+        position:relative;
+
         background-image: url("/images/donation_hero_image.jpg");
         background-size: cover;
         object-fit: cover;
     }
+    .section-hero::after{
+        content:'';
+        position:absolute;
+        background:rgba(0,0,0,.1);
+        left:0;
+        top:0;
+        right:0;
+        bottom:0;
+    }   
     .section-hero > .container{    
         text-align: center;
-        z-index: 1;
-        position: relative;
         color: rgb(255, 255, 255);
-    }
-    .donation-content .section-hero::after{
-        display: inline-block;
-        background:rgba(0,0,0,.5);
-        content: "";
-        top: 0;
-        right:0;
-        bottom: 0;
-        left: 0;
-        z-index: 0;
     }
     .section-hero-content {
         position: relative;
