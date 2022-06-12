@@ -20,7 +20,6 @@
 }
 .donation-content .section-progress .section-progress-content {
     text-align: center;
-    position: relative;
 }
 .section-progress .section-progress-content>h3 {
     margin-top: 2rem;
@@ -43,8 +42,7 @@
 }
 .progress-percantage {
     position: relative;
-    right:-5rem;
-    color: rgb(255, 255, 255);
+    text-align: end;
 }
 .section-progress-content p{
     max-width: 34rem;
@@ -84,10 +82,12 @@
     }
 }
 @media (max-width:991px) {
-    .section-hero > .container{
+    .section-hero{
         background-image: url("/images/donation_hero_image.jpg");
         background-size: cover;
         object-fit: cover;
+    }
+    .section-hero > .container{    
         text-align: center;
         z-index: 1;
         position: relative;
@@ -115,6 +115,9 @@
     .section-hero-content>p{
         text-shadow: 1px 1px rgb(0 0 0 / 20%);
     } 
+    .donation-content .section-hero> .container{
+        padding-bottom: 2rem;
+    }
     .section-content> .container{
         padding-bottom: 3rem;
     }
@@ -157,19 +160,10 @@
     .section-content>.container div img {
         margin-bottom: 1rem;
     }
-    .donation-content .hero-image-container>span {
-        top: 1.2rem;
-    }
-    .donation-content .hero-image-container>span img {
-        width:45%;
-    }
 }
 @media only screen and (max-width:480px) {
     .donation-content .section-progress>.container {
         padding-top: 1.3rem;
-    }
-    .progress-percantage {
-        right: -1rem;
     }
     .section-progress-content .text-lg{
         font-size: 0.875rem;
