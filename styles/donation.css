@@ -2,8 +2,12 @@
     padding-top: 2.5rem;
     padding-bottom: 3.5rem;
 }
-.donation-content .section-hero-content>h1, .section-hero-content>p {
+.section-hero-content>h1, .section-hero-content>p {
     margin-bottom: 2rem;
+}
+.hero-image-container> figure{
+    margin:0;
+    position:relative;
 }
 .hero-image-container figure img:last-child{
     position:absolute;
@@ -11,14 +15,14 @@
     bottom:-11rem;
     left:-15rem;
 }
-.donation-content .section-progress {
+.section-progress {
     background-color: rgb(252, 249, 247);
 }
-.donation-content .section-progress>.container {
+.section-progress>.container {
     padding: 3rem 5rem 3rem 5rem;
     position: relative;
 }
-.donation-content .section-progress .section-progress-content {
+.section-progress .section-progress-content {
     text-align: center;
 }
 .section-progress .section-progress-content>h3 {
@@ -112,7 +116,7 @@
     .section-hero-content>p{
         text-shadow: 1px 1px rgb(0 0 0 / 20%);
     } 
-    .donation-content .section-hero> .container{
+    .section-hero> .container{
         padding-bottom: 2rem;
     }
     .hero-image-container figure img:last-child{
