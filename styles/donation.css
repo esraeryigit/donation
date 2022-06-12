@@ -128,7 +128,7 @@
         font-size: 1.125rem;
     }
 }
-@media(max-width:768px) {
+@media(max-width: 767.98px) {
     .section-content-definion .text-xl{
         font-size: 1rem;
     }
@@ -150,12 +150,9 @@
 }
 @media only screen and (max-width:480px) {
     .donation-content .section-progress>.container {
-        padding-top: 1.3rem;
+        padding-top: 2rem;
     }
     .section-progress-content .text-lg{
         font-size: 0.875rem;
-    }
-    .sponsors .container:last-child{
-        margin-top: 1rem;
     }
 }
