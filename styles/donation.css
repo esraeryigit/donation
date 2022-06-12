@@ -170,6 +170,7 @@
         font-size: 0.875rem;
     }
     .hero-image-container figure img:last-child{
-        bottom:-10rem;
+        bottom:-12rem;
+        left:3rem;
     }
 }
