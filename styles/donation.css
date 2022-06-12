@@ -167,6 +167,9 @@
     .section-sponsors .container>.row>div{
         padding-left: 0;
     }
+    .section-sponsors .container>.row:last-child{
+        padding-right: 1rem;
+    }
 }
 @media only screen and (max-width:480px) {
     .donation-content .section-progress>.container {
