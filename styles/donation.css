@@ -120,7 +120,6 @@
         padding-bottom: 2rem;
     }
     .hero-image-container figure img:last-child{
-    
         bottom:-14rem;
         left:-2rem;
     }
@@ -139,7 +138,7 @@
         font-size: 1rem;
     }
     .hero-image-container figure img:last-child{ 
-      width:65%;
+        width:65%;
     }
 }
 @media(max-width: 575.98px){ 
@@ -188,7 +187,7 @@
         font-size: 0.875rem;
     }
     .hero-image-container figure img:last-child{
-        bottom:-12rem;
+        bottom:-11rem;
         width:45%;
     }
 }
