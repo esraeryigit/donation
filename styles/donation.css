@@ -111,10 +111,10 @@
     .section-hero-content>h1 {
         margin-bottom: 1rem;
         color:rgb(255, 255, 255);
-        text-shadow: 1px 1px rgb(0 0 0 / 20%)
+        text-shadow: 1px 1px rgb(0 0 0 / 80%)
     }
     .section-hero-content>p{
-        text-shadow: 1px 1px rgb(0 0 0 / 20%);
+        text-shadow: 1px 1px rgb(0 0 0 / 80%);
     } 
     .section-hero> .container{
         padding-bottom: 2rem;
