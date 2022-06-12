@@ -115,6 +115,11 @@
     .donation-content .section-hero> .container{
         padding-bottom: 2rem;
     }
+    .hero-image-container figure img:last-child{
+        width: 55%;
+        bottom:-14rem;
+        left:3rem;
+    }
     .section-content> .container{
         padding-bottom: 3rem;
     }
@@ -147,6 +152,10 @@
     .section-content .container:nth-child(2)>div{
         margin-right:0;
     }
+    .hero-image-container figure img:last-child{
+        bottom:-13rem;
+        width: 35%;
+    }
 }
 @media only screen and (max-width:480px) {
     .donation-content .section-progress>.container {
@@ -154,5 +163,8 @@
     }
     .section-progress-content .text-lg{
         font-size: 0.875rem;
+    }
+    .hero-image-container figure img:last-child{
+        bottom:-10rem;
     }
 }
