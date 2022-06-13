@@ -79,6 +79,9 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.section-sponsors .row{
+    padding-right: 1rem;
+}
 .section-sponsors .container img{
     max-width: 100%;
 }
@@ -174,8 +177,11 @@
     .section-sponsors .container>.row>div{
         padding-left: 0;
     }
-    .section-sponsors .container>.row:last-child{
-        padding-right: 1rem;
+    .section-sponsors .container> .row>div{
+        padding-left: 3%;
+    }
+    .section-sponsors .container>.row div:last-child{
+        padding-right: .5%;
     }
     .section-hero{
         background-image: 
@@ -196,5 +202,8 @@
     .hero-image-container figure img:last-child{
         bottom:-11rem;
         width:45%;
+    }
+    .section-sponsors .row div:last-child{
+        padding-top: 1%;
     }
 }
