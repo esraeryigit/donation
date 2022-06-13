@@ -47,6 +47,7 @@
 .progress-percantage {
     position: relative;
     text-align: end;
+    padding-right: 1rem;
 }
 .section-progress-content p{
     max-width: 34rem;
