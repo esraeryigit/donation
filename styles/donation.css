@@ -1,59 +1,98 @@
-.donation-content .section-hero>.container {
+/* Section Hero */
+.donation-content .section-hero> .container {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.section-hero-content>h1, .section-hero-content>p {
+@media (max-width:991px) {
+    .section-hero{
+        position:relative;      
+        background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url("../images/donation_hero_image.jpg");
+        background-size: cover;
+        object-fit: cover;
+    }
+    .section-hero > .container{    
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-bottom: 2rem;
+    }
+}  
+@media(max-width: 575px){ 
+    .section-hero{
+        padding-top: 3rem;
+    }
+} 
+.section-hero-content> h1{
     margin-bottom: 2rem;
 }
+.section-hero-content> p {
+    margin-bottom: 2rem;
+}
+@media (max-width:991px) {
+    .section-hero-content {
+        position: relative;
+        margin: 0 auto;
+    }
+    .section-hero-content> h1 {
+        margin-bottom: 1rem;
+        color:rgb(255, 255, 255);
+        text-shadow: 1px 1px rgb(0 0 0 / 30%)
+    }
+    .section-hero-content> p{
+        text-shadow: 1px 1px rgb(0 0 0 / 30%);
+    } 
+}   
 .hero-image-container> figure{
     margin:0;
     position:relative;
 }
-
-/* Hero Bird */
-.hero-image-container figure img:last-child{
+.hero-image-container> figure .section-hero-bird{
     position:absolute;
     width: 16rem;
     bottom:-11rem;
     left:-15rem;
     max-width: 260px;
 }
-@media (max-width:991.98px) {
-    .hero-image-container figure img:last-child{
+@media (max-width:991px) {
+    .hero-image-container> figure .section-hero-bird{
         bottom: -14rem;
         left: -2rem;
     }
 }
-@media(max-width: 767.98px) {
-    .hero-image-container figure img:last-child{}
-}
-@media(max-width: 575.98px){ 
-    .hero-image-container figure img:last-child{}
-}
 @media only screen and (max-width:480px) {
-    .hero-image-container figure img:last-child{
+    .hero-image-container> figure .section-hero-bird{
         bottom: -10rem;
         max-width: 172px;
     }
 }
-
-
-
+/* Section Progress */
 .section-progress {
     background-color: rgb(252, 249, 247);
 }
-.section-progress>.container {
+.section-progress> .container {
     padding: 3rem 5rem 3rem 5rem;
     position: relative;
 }
-.section-progress .section-progress-content {
-    text-align: center;
+@media(max-width: 575px){ 
+    .section-progress> .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+} 
+@media only screen and (max-width:480px) {
+    .section-progress> .container {
+        padding-top: 2rem;
+    }  
 }
-.section-progress .section-progress-content>h3 {
+.section-progress-content> h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.section-progress-content .progress, .section-progress-content p{
+.section-progress-content .progress{
     margin-bottom: 2rem;
 }
 .progress {
@@ -73,146 +112,91 @@
     text-align: end;
     padding-right: 1rem;
 }
-.section-progress-content p{
+.section-progress-content> p{
     max-width: 34rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
-.section-content>.container {
+@media (max-width:991px) {
+    .section-progress-content> p .text-lg{
+        font-size: 1.125rem;
+    }
+}
+@media only screen and (max-width:480px) {
+    .section-progress-content> p .text-lg{
+        font-size: 0.875rem;
+    }
+}
+/* Section Content */    
+.section-content> .container {
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
-.section-content> .container .row:first-child,.section-content> .container .row:nth-child(2){
+@media(max-width: 575px){
+    .section-content> .container{
+        padding-bottom: 1rem;
+    }
+}    
+@media (max-width:991px) {
+    .section-content> .container .row {
+        justify-content: center;
+    }
+}    
+.section-content> .container .section-content-list{
     margin-bottom: 5rem;
 }
-.section-content .container img {
+.section-content> .container .section-content-list> div:first-child{
+    margin-right: 1rem;
+}
+@media(max-width: 575px){ 
+    .section-content> .container .section-content-list:nth-child(2) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-content .container .section-content-list div:first-child{
+        margin-right: 0;
+    }
+    .section-content> .container .section-content-list{
+        margin-bottom: 2rem;
+    }
+} 
+.section-content .section-content-image {
     max-width: 100%;
     border-radius: 1rem;
 }
-.section-content .container>.row div:first-child{
-    margin-right: 1rem;
-}
-.section-content .container:nth-child(2)>div{
-    margin-right: 1rem;
-}
-.section-content .container .row:last-child {
-    text-align: center;
-    margin-bottom: 5rem;
-}
+@media(max-width: 575px){ 
+    .section-content .section-content-image{
+        margin-bottom: 1rem;
+    }
+} 
 .section-content-definion{
     margin-top: auto;
     margin-bottom: auto;
-}
-.section-sponsors .row{
-    padding-right: 1rem;
-}
-.section-sponsors .container img{
-    max-width: 260px;
-    width: 100%;
-    padding: 0 1rem;
-    display: inline-block;
 }
 @media (max-width:1024px) {
     .section-content-definion .text-xl{
         font-size: 1.25rem;
     }
 }
-@media (max-width:991.98px) {
-    .section-hero{
-        position:relative;      
-        background-image: 
-        linear-gradient(
-          rgba(0, 0, 0, 0.1),
-          rgba(0, 0, 0, 0.4)
-        ),
-        url("../images/donation_hero_image.jpg");
-        background-size: cover;
-        object-fit: cover;
-    }
-    .section-hero > .container{    
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
-    .section-hero-content {
-        position: relative;
-        margin: 0 auto;
-    }
-    .section-hero-content>h1 {
-        margin-bottom: 1rem;
-        color:rgb(255, 255, 255);
-        text-shadow: 1px 1px rgb(0 0 0 / 30%)
-    }
-    .section-hero-content>p{
-        text-shadow: 1px 1px rgb(0 0 0 / 30%);
-    } 
-    .section-hero> .container{
-        padding-bottom: 2rem;
-    }
-    
-    .section-content>.container .row {
-        justify-content: center;
-    }
-    .section-progress .progress{
-        text-align: center;
-    }
-    .section-progress-content .text-lg{
-        font-size: 1.125rem;
-    }
-}
-@media(max-width: 767.98px) {
+@media(max-width: 767px) {
     .section-content-definion .text-xl{
         font-size: 1rem;
     }
+}  
+/* buttom of section content  */
+.section-content .container .section-content-buttom{
+    text-align: center;
+    margin-bottom: 5rem;
 }
-@media(max-width: 575.98px){ 
-    .section-hero{
-        padding-top: 3rem;
-    }
-    .section-content>.container div:nth-child(2) {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .section-content>.container div img {
-        margin-bottom: 1rem;
-    }
-    .section-content .container>.row div:first-child{
-        margin-right:0;
-    }
-    .section-content .container:nth-child(2)>div{
-        margin-right:0;
-    }
-    
-    .section-progress>.container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    .section-content> .container{
-        padding-bottom: 1rem;
-    }
-    .section-content .container .row:last-child {
-        margin-bottom: 0rem;
-    }
-    .section-content> .container .row:first-child,.section-content> .container .row:nth-child(2){
-        margin-bottom: 2rem;
-    }
-    .section-sponsors .container>.row>div{
-        padding-left: 0;
-    }
-    .section-sponsors .container> .row>div{
-        padding-left: 3%;
-    }
-    .section-sponsors .container>.row div:last-child{
-        padding-right: .5%;
-    }
-}
-@media only screen and (max-width:480px) {
-    .donation-content .section-progress>.container {
-        padding-top: 2rem;
-    }
-    .section-progress-content .text-lg{
-        font-size: 0.875rem;
-    }
-    .section-sponsors .row div:last-child{
-        padding-top: 1%;
-    }
+@media (max-width: 575.98px){
+    .section-content .container .section-content-buttom{
+    margin-bottom: 0rem;
+}}
+/* Section Sponsors */
+.section-sponsors .section-sponsors-logo{
+    max-width: 260px;
+    width: 100%;
+    padding: 0 1rem;
+    display: inline-block;
 }
